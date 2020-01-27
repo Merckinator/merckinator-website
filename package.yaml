@@ -2,16 +2,16 @@ name:                merckinator-website
 version:             0.1.0.0
 github:              "githubuser/merckinator-website"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2020 Author name here"
+author:              "Jeff Merckens"
+maintainer:          "jeff.merckens@gmail.com"
+copyright:           "2020 Jeff Merckens"
 
 extra-source-files:
 - README.md
 - ChangeLog.md
 
 # Metadata used when publishing your package
-# synopsis:            Short description of your package
+# synopsis:            A personal website trying out different tech
 # category:            Web
 
 # To avoid duplicated efforts in documentation and dealing with the
@@ -21,6 +21,8 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- blaze-html
+- scotty
 
 library:
   source-dirs: src
