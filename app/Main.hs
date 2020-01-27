@@ -13,5 +13,5 @@ main = do
     port <- getPort
     scotty (port) $ do
         notFound $ do
-            S.html . renderHtml $ do
-                H.h1 "Coming soon!"
+            S.html . renderHtml $ comingSoon
+                
