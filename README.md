@@ -9,10 +9,17 @@
 
 ## Technology Choices
 - Hosting: Heroku
+    - (https://www.heroku.com)
 - Programming Language: Haskell
+    - (https://www.haskell.org/)
 - Build Tool: Stack
+    - (https://docs.haskellstack.org/en/stable/README/)
 - Web Framework: Scotty
+    - (https://github.com/scotty-web/scotty)
 - HTML Templating: Blaze HTML
+    - (https://jaspervdj.be/blaze/)
+- CSS Preprocessor: Clay
+    - (http://fvisser.nl/clay/)
 
 ## Steps to Build this Project
 1. Clone repo or download code;
