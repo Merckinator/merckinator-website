@@ -21,7 +21,7 @@ underConstruction = do
 landingPage :: Html
 landingPage = do
     html5Boilerplate "Home" $ do
-        H.div ! A.id "container" $ h1 "Merckinator.com"
+        H.div ! A.id "container" $ h1 "Home Page"
 
 navBar :: Html
 navBar = do
