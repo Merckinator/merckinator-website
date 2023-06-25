@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatCardModule } from '@angular/material/card';
+import { SimpleMatCardComponent } from '../SimpleMatCard/simple-mat-card.component';
 
 @Component({
   selector: 'merck-welcome-card',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
+  imports: [CommonModule, SimpleMatCardComponent],
   templateUrl: './welcome-card.component.html',
   styleUrls: ['./welcome-card.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
