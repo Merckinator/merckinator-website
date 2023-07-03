@@ -1,21 +1,20 @@
 .merck-app-content-wrapper {
   height: 100%;
-  display: flex;
 }
 
 .merck-app-content {
   height: 100%;
-  flex: 3;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
-}
 
-.merck-app-content-gutter {
-  flex: 0;
+  * {
+    flex: 1 400px;
+  }
 
-  @media (min-width: 600px) {
-    flex: 1;
+  ::ng-deep mat-card {
+    margin: 2rem;
+    max-width: 500px;
   }
 }
